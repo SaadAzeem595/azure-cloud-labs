@@ -1,0 +1,32 @@
+name: azure-cloud-labs
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - notebook
+
+  - pip:
+      - streamlit
+      - fastapi
+      - uvicorn
+      - requests
+      - python-dotenv
+      - openai
+      - langchain
+      - langchain-openai
+      - chromadb
+      - pymongo
+      - flask
+      - azure-ai-ml
+      - azure-identity
+      - azure-storage-blob
+      - azure-keyvault-secrets
