@@ -1,0 +1,13 @@
+# Using Azure CLI (Recommended for DevOps Skills)
+
+Open terminal
+Login
+az login
+Step 3: Create Resource Group
+az group create \
+  --name rg-azure-labs \
+  --location eastus
+
+# Check regions using CLI:
+
+az account list-locations --output table
