@@ -18,3 +18,6 @@ Install-WindowsFeature -Name Web-Server -IncludeManagementTools -Restart
 
 # NSG?
 Network Security Group which actually block and allows the traffic
+
+# RDP?
+RDP stands for Remote Desktop Protocol. It is a proprietary technology developed by Microsoft that allows a user to connect to and control another computer or server remotely over a network connection. It provides a graphical interface for working on a remote Windows system.
