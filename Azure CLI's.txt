@@ -1,7 +1,7 @@
 # Using Azure CLI (Recommended for DevOps Skills)
 
-Open terminal
-Login
+Step 1: Open terminal
+Step 2: Login
 az login
 Step 3: Create Resource Group
 az group create \
@@ -11,3 +11,7 @@ az group create \
 # Check regions using CLI:
 
 az account list-locations --output table
+
+# To install the IIS Web Server role along with its management tools and allow for an automatic restart, use this:
+
+Install-WindowsFeature -Name Web-Server -IncludeManagementTools -Restart
