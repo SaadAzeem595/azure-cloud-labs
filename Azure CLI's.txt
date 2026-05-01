@@ -15,3 +15,6 @@ az account list-locations --output table
 # To install the IIS Web Server role along with its management tools and allow for an automatic restart, use this:
 
 Install-WindowsFeature -Name Web-Server -IncludeManagementTools -Restart
+
+# NSG?
+Network Security Group which actually block and allows the traffic
