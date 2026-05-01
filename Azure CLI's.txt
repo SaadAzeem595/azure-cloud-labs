@@ -21,3 +21,12 @@ Network Security Group which actually block and allows the traffic
 
 # RDP?
 RDP stands for Remote Desktop Protocol. It is a proprietary technology developed by Microsoft that allows a user to connect to and control another computer or server remotely over a network connection. It provides a graphical interface for working on a remote Windows system.
+
+# VHD?
+A Virtual Hard Disk (VHD) is a file format that acts as a container, mimicking a physical hard drive to store data, operating systems, and applications within a virtual machine (VM).
+
+# Docker?
+Docker is a platform used to package an application and everything it needs to run (code, libraries, and settings) into a single unit called a container. In simple terms, Docker creates the containers, and Kubernetes manages them at scale.
+
+# Kubernetes?
+Kubernetes (often called K8s) is an orchestration platform used to automate the deployment, scaling, and management of containerized applications. 
