@@ -30,3 +30,9 @@ Docker is a platform used to package an application and everything it needs to r
 
 # Kubernetes?
 Kubernetes (often called K8s) is an orchestration platform used to automate the deployment, scaling, and management of containerized applications. 
+
+# Reference VM
+A reference VM (or reference machine) is a master virtual machine used as a template to create a base image for deploying multiple, identical virtual machines. It is fully configured with a clean OS install, software applications, and security updates, then captured to serve as a "golden image" for consistent, automated IT deployment.
+
+# AVD?
+Azure Virtual Desktop (AVD) is a comprehensive, cloud-based desktop and app virtualization service hosted on Microsoft Azure. It provides secure, remote access to Windows 10/11 desktops and applications from any device, allowing organizations to manage virtual environments centrally without maintaining on-premises infrastructure. 
