@@ -36,3 +36,6 @@ A reference VM (or reference machine) is a master virtual machine used as a temp
 
 # AVD?
 Azure Virtual Desktop (AVD) is a comprehensive, cloud-based desktop and app virtualization service hosted on Microsoft Azure. It provides secure, remote access to Windows 10/11 desktops and applications from any device, allowing organizations to manage virtual environments centrally without maintaining on-premises infrastructure. 
+
+# Azure App Service?
+Azure App Service is a fully managed "Platform as a Service" (PaaS) used for building, deploying, and scaling web apps and APIs. It handles the underlying infrastructure, allowing you to focus on writing your code rather than managing servers, patching operating systems, or configuring web servers.
