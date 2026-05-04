@@ -39,3 +39,6 @@ Azure Virtual Desktop (AVD) is a comprehensive, cloud-based desktop and app virt
 
 # Azure App Service?
 Azure App Service is a fully managed "Platform as a Service" (PaaS) used for building, deploying, and scaling web apps and APIs. It handles the underlying infrastructure, allowing you to focus on writing your code rather than managing servers, patching operating systems, or configuring web servers.
+
+# App Service Environment?
+An Azure App Service Environment (ASE) is a fully isolated, dedicated hosting environment for running Azure App Service apps—including web apps, APIs, and functions—at high scale. It offers superior network security by deploying directly into a user's Azure Virtual Network (VNet), making it ideal for high-security, high-traffic, and enterprise-grade applications requiring dedicated computing power. 
