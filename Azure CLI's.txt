@@ -42,3 +42,6 @@ Azure App Service is a fully managed "Platform as a Service" (PaaS) used for bui
 
 # App Service Environment?
 An Azure App Service Environment (ASE) is a fully isolated, dedicated hosting environment for running Azure App Service apps—including web apps, APIs, and functions—at high scale. It offers superior network security by deploying directly into a user's Azure Virtual Network (VNet), making it ideal for high-security, high-traffic, and enterprise-grade applications requiring dedicated computing power. 
+
+# Azure Container Instances (ACI)?
+Azure Container Instances (ACI) is a fully managed, serverless service that allows you to run Docker containers on-demand in Azure without managing virtual machines or orchestrators. It provides fast, per-second billing, making it ideal for isolated applications, batch jobs, simple applications, and bursting scenarios.
