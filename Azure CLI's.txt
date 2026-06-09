@@ -1,0 +1,71 @@
+# Using Azure CLI (Recommended for DevOps Skills)
+
+Step 1: Open terminal
+Step 2: Login
+az login
+Step 3: Create Resource Group
+az group create \
+  --name rg-azure-labs \
+  --location eastus
+
+# Check regions using CLI:
+
+az account list-locations --output table
+
+# To install the IIS Web Server role along with its management tools and allow for an automatic restart, use this:
+
+Install-WindowsFeature -Name Web-Server -IncludeManagementTools -Restart
+
+# NSG?
+Network Security Group which actually block and allows the traffic
+
+# RDP?
+RDP stands for Remote Desktop Protocol. It is a proprietary technology developed by Microsoft that allows a user to connect to and control another computer or server remotely over a network connection. It provides a graphical interface for working on a remote Windows system.
+
+# VHD?
+A Virtual Hard Disk (VHD) is a file format that acts as a container, mimicking a physical hard drive to store data, operating systems, and applications within a virtual machine (VM).
+
+# Docker?
+Docker is a platform used to package an application and everything it needs to run (code, libraries, and settings) into a single unit called a container. In simple terms, Docker creates the containers, and Kubernetes manages them at scale.
+
+# Kubernetes?
+Kubernetes (often called K8s) is an orchestration platform used to automate the deployment, scaling, and management of containerized applications. 
+
+# Reference VM
+A reference VM (or reference machine) is a master virtual machine used as a template to create a base image for deploying multiple, identical virtual machines. It is fully configured with a clean OS install, software applications, and security updates, then captured to serve as a "golden image" for consistent, automated IT deployment.
+
+# AVD?
+Azure Virtual Desktop (AVD) is a comprehensive, cloud-based desktop and app virtualization service hosted on Microsoft Azure. It provides secure, remote access to Windows 10/11 desktops and applications from any device, allowing organizations to manage virtual environments centrally without maintaining on-premises infrastructure. 
+
+# Azure App Service?
+Azure App Service is a fully managed "Platform as a Service" (PaaS) used for building, deploying, and scaling web apps and APIs. It handles the underlying infrastructure, allowing you to focus on writing your code rather than managing servers, patching operating systems, or configuring web servers.
+
+# App Service Environment?
+An Azure App Service Environment (ASE) is a fully isolated, dedicated hosting environment for running Azure App Service apps—including web apps, APIs, and functions—at high scale. It offers superior network security by deploying directly into a user's Azure Virtual Network (VNet), making it ideal for high-security, high-traffic, and enterprise-grade applications requiring dedicated computing power. 
+
+# Azure Container Instances (ACI)?
+Azure Container Instances (ACI) is a fully managed, serverless service that allows you to run Docker containers on-demand in Azure without managing virtual machines or orchestrators. It provides fast, per-second billing, making it ideal for isolated applications, batch jobs, simple applications, and bursting scenarios.
+
+#Azure Virtual Network (VNet)?
+An Azure Virtual Network (VNet) is the foundational building block for private, secure networking in Microsoft Azure. It enables Azure resources—such as Virtual Machines (VMs), databases, and application services—to securely communicate with each other, the internet, and on-premises datacenters, providing isolation and control over IP addresses, subnets, and routing.
+
+# DNS?
+DNS (Domain Name System) is the internet's "phonebook," translating human-readable domain names (e.g., google.com) into computer-readable IP addresses (e.g., 192.0.2.1). Azure DNS is Microsoft's cloud-based hosting service for DNS domains, providing secure, reliable, and high-performance name resolution, using Azure's global infrastructure to manage records.
+
+# Azure VPN?
+Azure VPN Gateway is a cloud-based service that creates encrypted, secure tunnels between Azure virtual networks and on-premises locations or individual devices over the public internet. It acts as a bridge, allowing secure, hybrid connectivity for data transmission while supporting site-to-site (S2S) and point-to-site (P2S) configurations. 
+
+# Azure Blob storage?
+Azure Blob Storage is Microsoft's highly scalable, secure, and cost-effective object storage solution for massive volumes of unstructured data, including text, binary files, images, and videos. It is ideal for building data lakes, streaming media, storing backup/archive data, and powering cloud-native applications.
+
+# Azure Disk Storage?
+Block-level storage volumes for Azure Virtual Machines (VMs). It acts as the "hard drive" for VMs, allowing for high performance and durability.
+
+# Azure File Storage?
+Fully managed, cloud-based file shares that use the industry-standard Server Message Block (SMB) protocol. Ideal for lifting and shifting applications to the cloud that require file sharing.
+
+# Azure Queue Storage?
+A messaging service used to store large numbers of messages to enable asynchronous communication between application components.
+
+# Azure Table Storage?
+A NoSQL data store that enables storage of massive amounts of structured, non-relational data. It is fast and cost-effective for key-value datasets.
